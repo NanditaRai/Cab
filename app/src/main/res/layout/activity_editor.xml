@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity"
+    android:id="@+id/page"
+    android:background="@drawable/cab"
+    >
+
+    <!--android:background="@drawable/cab"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Day field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/set_date"
+                android:text="Set Date"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/set_time"
+                android:text="Set Time"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!-- Fare field -->
+        <EditText
+            android:id="@+id/edit_fare"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_fare"
+            android:inputType="textCapWords" />
+
+        <!--Source field-->
+        <EditText
+            android:id="@+id/edit_source"
+            android:focusableInTouchMode="false"
+            android:editable="false"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_source"
+            android:inputType="textCapWords" />
+
+        <!--Destination field-->
+        <EditText
+            android:id="@+id/edit_destination"
+            style="@style/EditorFieldStyle"
+            android:focusableInTouchMode="false"
+            android:editable="false"
+            android:hint="@string/hint_destination"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/add_note"
+        android:text="Want to add any note?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#2B3D4D"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="note.."/>
+
+</LinearLayout>
+

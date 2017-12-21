@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">"Cab Service"</string>
+    <string name="empty_view_title_text">No item to show</string>
+    <string name="empty_view_subtitle_text">Click the add button to start</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="hint_day">Day</string>
+    <string name="hint_fare">Fare</string>
+    <string name="editor_insert_failed">Insertion Failed</string>
+    <string name="editor_insert_successful">Insertion Successful</string>
+    <string name="editor_update_pfailed">Updated</string>
+    <string name="editor_update_successful">Update Successful</string>
+    <string name="editor_delete_failed">Deleted</string>
+    <string name="editor_delete_successful">Deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_msg">Confirm Deletion</string>
+    <string name="unsaved_changes_dialog_msg">Unsaved Changes</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Entries</string>
+    <string name="editor_update_failed">Update Failed</string>
+    <string name="hint_source">Source</string>
+    <string name="hint_destination">Destination</string>
+    <string name="time_of_ride">Time Of Ride</string>
+    <string name="date_of_ride">Date Of Ride</string>
+    <string name="str_btn_find">Find</string>
+    <string name="hnt_et_location">Enter Location</string>
+    <string name="want_to_add">Want to add note ?</string>
+    <string name="want_to_edit">Want to edit note</string>
+
+    <string-array name="Name_Of_Week">
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wed</item>
+        <item>Thurs</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+     </string-array>
+
+    <string-array name="Name_Of_Month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of pets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Day"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#2B3D4D" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif"
+            android:text="fare"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2B3D4D"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            layout="@layout/start_end_layout"
+            android:id="@+id/left_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="source"/>
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/source"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="destination"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
